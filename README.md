@@ -2,6 +2,9 @@
 
 This package consists in a Simple and profitable quantitative model to user in Brazilian VALE3 (VALE S.A.) Stocks
 
+[![PyPI Version](https://img.shields.io/pypi/v/quantitative-vale-model.svg)](https://pypi.org/project/quantitative-vale-model/)
+
+
 ## Install
 ```bash
 pip install quantitative-vale-model
