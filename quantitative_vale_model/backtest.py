@@ -41,6 +41,7 @@ def trade_action():
     Call this function trade_action to see what the model say for the next movements
     
     '''
+    
     df = yf.Ticker('VALE3.SA').history('100d')
     sma_period_short = df['Close'].rolling(window=20).mean().iloc[-1]
     sma_period_long = df['Close'].rolling(window=50).mean().iloc[-1]
@@ -50,12 +51,12 @@ def trade_action():
 
     if sma_period_short > sma_period_long and actual_volume > sma_volume * 1.1:
         action_verb = 'buy'
-        return action_verb 
     
     elif sma_period_short < sma_period_long:
         action_verb = 'sell'
-        return action_verb
-    
+        
     else:
         action_verb = 'hold'
-        return action_verb
+    
+    return action_verb
+    

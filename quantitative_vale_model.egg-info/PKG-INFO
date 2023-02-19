@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: quantitative-vale-model
-Version: 0.2
+Version: 0.3
 Summary: Simple and profitable quantitative model to user in Brazilian VALE3 (VALE S.A.) Stocks
 Home-page: https://github.com/Tavaresiqueira/quantitative_vale_model/
 Author: Joao Pedro Tavares
 Author-email: siqueiratav@gmail.com
 License: UNKNOWN
-Download-URL: https://github.com/Tavaresiqueira/quantitative_vale_model/archive/v0.2.tar.gz
+Download-URL: https://github.com/Tavaresiqueira/quantitative_vale_model/archive/v0.3.tar.gz
 Description: # quantitative_vale_model 
         
         This package consists in a Simple and profitable quantitative model to user in Brazilian VALE3 (VALE S.A.) Stocks
